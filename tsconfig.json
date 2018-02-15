@@ -1,8 +1,12 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "moduleResolution": "node",
     "sourceMap": true,
-    "noUnusedLocals": true,
-    "moduleResolution": "node"
+    "noImplicitAny": true,
+    "alwaysStrict": true,
+    "allowSyntheticDefaultImports": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true
   }
 }
