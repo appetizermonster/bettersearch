@@ -20,7 +20,8 @@ const config: webpack.Configuration = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      chunks: ['renderer']
+      chunks: ['renderer'],
+      filename: 'renderer.html'
     })
   ]
 };
