@@ -9,3 +9,7 @@ export function getRendererHtmlUrl() {
     slashes: true
   });
 }
+
+export function getWorkerScriptPath() {
+  return path.join(__dirname, 'worker.js');
+}

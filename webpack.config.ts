@@ -7,7 +7,8 @@ const config: webpack.Configuration = {
   devtool: 'inline-source-map',
   entry: {
     main: './src/main',
-    renderer: './src/renderer'
+    renderer: './src/renderer',
+    worker: './src/worker'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
